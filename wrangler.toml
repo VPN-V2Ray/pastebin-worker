@@ -1,7 +1,7 @@
 name = "pb"
 compatibility_date = "2023-01-28"
 
-account_id = "1ddaf86dbca12e8f4fcaa76f32bb707d"
+account_id = "dcaaa0f09b51a8a8f7df559e365d8dbf"
 workers_dev = false
 main = "src/index.js"
 
@@ -9,7 +9,7 @@ main = "src/index.js"
 vars = { ENVIRONMENT = "production" }
 route = { pattern = "shz.al", custom_domain = true }
 kv_namespaces = [
-  { binding = "PB", id = "cc398e983a234aa19de5ea6af571a483" },
+  { binding = "PB", id = "be1faadd103b46778ba0b08972a39b14" },
 ]
 
 [env.preview]
@@ -18,6 +18,6 @@ route = { pattern = "pb-preview.shz.al", custom_domain = true }
 minify = false
 
 kv_namespaces = [
-  { binding = "PB", id = "f56ae0043abd4bb4ab61c52071bd9c7f" }
+  { binding = "PB", id = "be1faadd103b46778ba0b08972a39b14" }
 ]
 
