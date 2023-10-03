@@ -7,14 +7,14 @@ main = "src/index.js"
 
 # config for default production environment
 vars = { ENVIRONMENT = "production" }
-route = { pattern = "shz.al", custom_domain = true }
+route = { pattern = "pastebin.o--o.eu.org", custom_domain = true }
 kv_namespaces = [
   { binding = "PB", id = "be1faadd103b46778ba0b08972a39b14" },
 ]
 
 [env.preview]
 vars = { ENVIRONMENT = "preview" }
-route = { pattern = "pb-preview.shz.al", custom_domain = true }
+route = { pattern = "pb-preview.pastebin.o--o.eu.org", custom_domain = true }
 minify = false
 
 kv_namespaces = [
